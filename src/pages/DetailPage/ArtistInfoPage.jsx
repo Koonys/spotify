@@ -21,9 +21,6 @@ const ArtistInfoPage = () => {
     setIsExpanded(!isExpanded);
   };
 
-  console.log('artistinfo',data)
-  console.log('toptrackss',toptracks)
-
   const trackListCount = isExpanded ? 10 : 5;
 
   // 로딩 중이거나 데이터가 없을 때

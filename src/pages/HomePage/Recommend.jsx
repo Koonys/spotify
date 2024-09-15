@@ -3,11 +3,8 @@ import Card from "../../common/Card.jsx";
 import { useRecommendTrack } from "../../hooks/useRecomendTracks.js";
 
 const Recommend = ({ data }) => {
-  console.log("eeeerrrerererer");
 
   let { data: recommend, isLoading } = useRecommendTrack(data);
-
-  console.log("tttttt", recommend);
 
 
   if (isLoading || !recommend || Object.keys(recommend).length === 0) {

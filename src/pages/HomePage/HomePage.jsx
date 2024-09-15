@@ -218,7 +218,6 @@ const HomePage = () => {
   }, [filter.tracks, filter.artist]);
 
 
-  console.log('filterrrrrr',filter)
 
 
    const { data } = useUserInfo();

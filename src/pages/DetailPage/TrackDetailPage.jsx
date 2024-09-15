@@ -7,11 +7,6 @@ import {useTrackByID} from "../../hooks/useTrackByID.js";
 const TrackDetailPage = () => {
   const { name } = useParams();
   const {data:track, isLoading} = useTrackByID(name)
-  let info = null;
-
-
-  console.log('tackkk',info)
-  console.log('aaaa',track)
 
   // ms를 시간 형식으로 변환하는 함수
   function msToTimeFormat(ms) {

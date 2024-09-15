@@ -16,7 +16,6 @@ const MyPlaylist = () => {
     const [searchInputValue, setSearchInputValue] = useState('');
     const userId = useSelector((state)=>state.userInfo.user.id)
     const {data} = useUserPlaylist(userId);
-    console.log('data',data)
 
     const handleListBtn =()=>{
     setListBtn(!listBtn)

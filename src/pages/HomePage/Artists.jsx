@@ -9,7 +9,6 @@ const Artists = (item) => {
 
     if(isLoading){return '';}
 
-    console.log('item',data);
     return (
         <div className={'mt-10'}>
             <h1>
